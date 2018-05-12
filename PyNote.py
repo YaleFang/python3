@@ -12,7 +12,7 @@ def save():
         file.write(contents.get('1.0', END))
 
 top = Tk()
-top.title('PyNote')
+top.title('PyNote --- YaleFang')
 
 contents = ScrolledText()
 contents.pack(side = BOTTOM, expand = True, fill = BOTH)
